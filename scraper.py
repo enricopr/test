@@ -32,7 +32,7 @@ def parse_addresses(el):
     return el.find_class('adr')
 
 
-html = scraperwiki.scrape("http://www.paginegialle.it/pgol/4-web%20agency?mr=50")
+html = scraperwiki.scrape("http://www.paginegialle.it/pgol/4-pesca%20sportiva?mr=50")
 print html
 root = lxml.html.fromstring(html)
 
